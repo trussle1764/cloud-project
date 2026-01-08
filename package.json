@@ -1,19 +1,17 @@
 {
-  "name": "cloud-1",
+  "name": "cloud-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Final project for Introduction to Cloud Technologies",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1",
+    "express": "^4.18.2",
     "sqlite3": "^5.1.7"
   }
 }
